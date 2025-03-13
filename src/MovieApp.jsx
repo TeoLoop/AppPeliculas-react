@@ -9,7 +9,7 @@ export const MovieApp = () => {
     const [error, setError] = useState(null)
 
     const urlBase = 'https://api.themoviedb.org/3/search/movie?'
-    const API_KEY = '43040461c5aa962a95b5b4467a1d8321'
+    const API_KEY = 'YOUR_API_KEY'
 
     const handleInputChange = ({ target }) => {
         setSearch(target.value)
